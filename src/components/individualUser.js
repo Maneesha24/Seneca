@@ -3,8 +3,14 @@ import React, {Component} from 'react';
 class User extends Component{
     
     state = {isHidden : true}
-             
+        componentDidMount(){
+            this.setState({isHidden :false})
+        }  
 
+showContent = () => {
+    this.setState({isHidden :true})
+}
+    
 render(){
 return(
 <div>
@@ -16,7 +22,7 @@ return(
 
     </div>
 
-    <button>Show</button>
+    <button onClick = {this.showContent}>Show</button>
 
 </div>
 
