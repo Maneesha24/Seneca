@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+header{
+    background-color: black;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: transparent;
+    color: hotpink;
+    border: none;
+    margin: 2rem;
+}
+
+button:hover{
+    color: hotpink;
+    cursor: pointer;
+    border: 2px solid hotpink;
+}
+
+.container{
+    font-size:2rem;
+}
+
+.search-btn{
+     border: 2px solid black;
+    color: black;
+}
+
+.container-item{
+    border: 2px solid green;
+}
+
+.indv{
+    border: 2px solid gray;
+    padding: 2rem;
+}
+
+p{
+    color: red;
+}
