@@ -27,6 +27,7 @@ render() {
 return (
 <div>
     <p>Here are some details about user</p>
+
 {this.state.users.map(user => <User key={user.id} user={user} />)}
 </div>
 );

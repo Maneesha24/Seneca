@@ -41,5 +41,22 @@ button:hover{
 }
 
 p{
-    color: red;
+    color: hotpink;
+}
+
+.title{
+    color: darkcyan;
+}
+
+.id{
+    color: navy;
+}
+
+span{
+    font-size: 1.3rem;
+}
+
+.indv:hover{
+    background-color: gainsboro;
+    cursor: pointer;
 }
